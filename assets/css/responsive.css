@@ -1,0 +1,454 @@
+/*
+-----------------------------------------------------------------------
+  Small Desktop Devices max-width:1200px & min-width:992px
+-----------------------------------------------------------------------
+*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /*--------  About Us CSS --------*/
+    .about-img, .progress-img {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .about-us-content, .progress-us-content {
+        padding-left: 0;
+    }
+
+    /*--------  Team Area CSS --------*/
+    .team-member-box {
+        margin-bottom: 24px;
+    }
+    
+    .our-team-area {
+        padding-bottom: 76px;
+    }
+
+    /*--------  Tetimonial Area CSS --------*/
+    .testimonial-single-item .client-image {
+        left: 0;
+    }
+    
+    .testimonial-single-item .testimonial-text {
+        padding-left: 170px;
+    }
+
+    /*--------  Tetimonial Style 02 Area CSS --------*/
+    .testimonial-style-2 .testimonial-single-item .client-image {
+        left: 25px;
+    }
+    
+    .testimonial-style-2 .testimonial-single-item .testimonial-text {
+        padding-left: 200px;
+    }
+
+    /*--------  Blog Post Area CSS --------*/
+    .blog-thumbnail .blog-content h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+
+/*
+-----------------------------------------------------------------------
+  Tablet Devices max-width:991px
+-----------------------------------------------------------------------
+*/
+@media only screen and (max-width: 991px) {
+	/*-------- Mobile Menu css --------*/
+    .site-header{
+        border-bottom: 1px solid #e9ebf0;
+        padding: 15px 0;
+    }
+
+    .side-nav {
+        width: 40px;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+
+    .side-nav span {
+        width: 100%;
+        display: block;
+        height: 2px;
+        background: #242a3a;
+        margin-bottom: 10px;
+        position: relative;
+        transition: .2s;
+    }
+    .side-nav span:last-child{
+        margin-bottom: 0;
+    }
+    .side-nav.active span:first-child {
+        transform: rotate(45deg);
+        top: 12px;
+    }
+    
+    .side-nav.active span:nth-child(2) {
+        transform: rotate(-45deg);
+    }
+    .side-nav.active span:last-child {
+        opacity: 0;
+    }
+
+    .main-menu ul li.current-menu-item a {
+		color: #f15a24;
+	}
+	.main-menu {
+		position: fixed;
+		left: 0;
+		top: 85px;
+		width: 300px;
+		height: calc(100% - 85px);
+		z-index: 999;
+		background: #ffffff;
+		padding-top: 20px;
+		left: -300px;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: .5s;
+		-o-transition: .5s;
+		transition: .5s;
+	}
+	.main-menu.active {
+		left: 0px;
+		opacity: 1;
+		visibility: visible;
+	}
+	.main-menu>ul.nav-menu li {
+		display: block;
+        text-align: left;
+	}
+    .main-menu>ul.nav-menu>li{
+        margin-right: 0px;
+    }
+    .main-menu>ul.nav-menu>li>a{
+        line-height: 1;
+    }
+	.main-menu>ul.nav-menu li a {
+		display: block;
+		padding: 15px 20px;
+        border-bottom: 1px solid #e9ebf0;
+	}
+    .mobile-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 8;
+        width: 100%;
+        height: 100%;
+        background-color: #292d34;
+        bottom: 0;
+    }
+    .mobile-backdrop.fade {
+        opacity: 0;
+    }
+    .mobile-backdrop.show {
+        opacity: .5;
+    }
+
+
+
+
+
+    .main-menu>ul.nav-menu>li>.sub-menu {
+        position: inherit;
+        visibility: visible;
+        opacity: 1;
+        overflow: inherit;
+        box-shadow: none;
+        width: 100%;
+        padding-top: 0;
+        top: inherit;
+        display: none;
+        transition: none;
+    }
+    
+    .main-menu>ul.nav-menu>li>.sub-menu li a {
+        line-height: 1;
+    }
+    .menu-expand {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 46px;
+        text-align: center;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .menu-expand.active{
+        transform: rotate(180deg);
+    }
+
+    /*--------  Hero Area CSS --------*/
+    .hero-style-2 .hero-area-text {
+        text-align: center;
+        margin-bottom: 50px!important;
+    }
+
+    /*--------  Breadcrumb Area CSS --------*/
+    .site-breadcrumb-area{
+        margin-top: 86px;
+    }
+
+    /*--------  Trusted Logo Area CSS --------*/
+    .trusted-logo-slider .owl-nav button.owl-next {
+        right: 0;
+    }
+    
+    .trusted-logo-slider .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .trusted-teams-area .trusted-team-header{
+        text-align: center;
+    }
+
+    /*--------  About Us CSS --------*/
+    .about-img, .progress-img, .faq-img {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-us-content, .progress-us-content {
+        padding-left: 0;
+    }
+    .single-counter {
+        margin: 15px 0;
+    }
+    
+    .counter-area.counter-style-2 {
+        padding: 35px 0;
+    }
+
+    /*--------  Features Area CSS --------*/
+    .features-area{
+        overflow: hidden;
+    }
+    .features-content {
+        padding-left: 0!important;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    /*--------  Quick Overview Area CSS --------*/
+    .quick-overview-wrapper .owl-nav button.owl-next {
+        right: 0px;
+    }
+    .quick-overview-wrapper .owl-nav button {
+        left: 0;
+    }
+    .quick-overview-style-2 .quick-overview-content {
+        margin-bottom: 30px;
+    }
+
+    /*--------  Team Area CSS --------*/
+    .team-member-box {
+        margin-bottom: 24px;
+    }
+    
+    .our-team-area {
+        padding-bottom: 76px;
+    }
+
+    /*--------  Pricing Table Area CSS --------*/
+    .single-pricing-table{
+        margin-bottom: 24px;
+    }
+
+    /*--------  FAQ Area CSS --------*/
+    .faq-content {
+        padding-left: 0px;
+    }
+
+    /*--------  Blog Area CSS --------*/
+    .blog-thumbnail {
+        margin-bottom: 24px;
+    }
+
+    /*--------  Contact Us Area CSS --------*/
+    .contact-form {
+        margin-bottom: 30px;
+    }
+    
+    .contact-address-widget {
+        padding-left: 0;
+    }
+
+    /*--------  Footer Area CSS --------*/
+    .footer-widget {
+        margin: 20px 0;
+    }
+
+}
+
+
+
+/*
+-----------------------------------------------------------------------
+  Mobile max-width:767px
+-----------------------------------------------------------------------
+*/
+@media only screen and (max-width: 767px) {
+    
+    /*--------  Header Area CSS --------*/
+    .site-logo img {
+        max-height: 40px;
+    }
+    
+    .side-nav {
+        width: 35px;
+    }
+    
+    .side-nav span {
+        margin-bottom: 8px;
+    }
+    .main-menu{
+        top: 73px;
+        height: calc(100% - 73px);
+    }
+    .side-nav.active span:first-child{
+        top: 10.2px;
+    }
+
+    /*--------  Breadcrumb Area CSS --------*/
+    .site-breadcrumb-area{
+        margin-top: 73px;
+    }
+
+    /*--------  Hero Area CSS --------*/
+    .hero-area-text h1 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    .trusted-teams-area .trusted-team-header {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-left: 0;
+        transform: inherit;
+    }
+    
+    /*--------  About US Area CSS --------*/
+    .about-us-content h2 {
+        font-size: 30px;
+        line-height: 1.23;
+    }
+    
+    .single-counter .counter-title {
+        font-size: 35px;
+    }
+    
+    .single-counter .counter-title {
+        font-size: 30px;
+    }
+    .single-counter p {
+        font-size: 15px;
+    }
+
+    /*--------  Features Area CSS --------*/
+    .features-left-style .features-content {
+        margin-right: 0px;
+    }
+
+    /*--------  Common CSS --------*/
+    .section-title, .testimonial-title-content h2, .cta-content h2 {
+        font-size: 35px;
+    }
+    
+    .features-content h2, .progress-us-content h2, .faq-content h2{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    
+    .testimonial-title-content h2 {
+        line-height: 1.2;
+    }
+
+    /*--------  Testimonial Area CSS --------*/
+    .testimonial-single-item .client-image {
+        position: inherit;
+        left: 0;
+        top: 0;
+        height: auto;
+        width: 100%;
+    }
+    
+    .testimonial-single-item .testimonial-text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    
+    .testimonial-single-item {
+        margin-bottom: 30px;
+    }
+    .testimonial-title-content{
+        padding-right: 0;
+    }
+
+    /*--------  Quick Overview CSS --------*/
+    .single-quick-overview h3 {
+        width: 90%;
+    }
+
+    /*--------  CTA Area CSS --------*/
+    .cta-buttons .theme-btn {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .cta-buttons .theme-btn:last-child {
+        margin-top: 20px;
+    }
+
+    /*--------  Footer Area CSS --------*/
+    .footer-bottom-menu {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*
+-----------------------------------------------------------------------
+  Small mobile max-width:572px
+-----------------------------------------------------------------------
+*/
+@media only screen and (max-width: 572px) {
+    
+    /*--------  Hero Area CSS --------*/
+    .hero-area {
+        padding-top: 120px;
+    }
+    
+    /*--------  Common CSS --------*/
+    .section-title, .testimonial-title-content h2, .cta-content h2 {
+        font-size: 30px;
+    }
+    .title-section-area p {
+        font-size: 16px;
+    }
+    
+    /*--------  Progress Area CSS --------*/
+    .single-progress-step {
+        flex-direction: column;
+    }
+    
+    .single-progress-step .progress-content {
+        width: 100%;
+    }
+
+    /*--------  Testimonial Area CSS --------*/
+    .testimonial-style-2 .testimonial-single-item .client-image {
+        top: 0;
+        height: auto;
+    }
+    .testimonial-single-item {
+        padding: 15px;
+    }
+}
