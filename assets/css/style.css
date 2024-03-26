@@ -17,7 +17,7 @@ Version: 1.0.0
 */
 
 body {
-	font-family: 'Karla', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 400;
 	color: #7c828d;
 	line-height: 1.8;
@@ -40,15 +40,16 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Barlow", sans-serif;
+    font-optical-sizing: auto;
 	margin: 0 0 15px;
 	font-weight: 700;
-	color: #292d34;
+	color: #0e1b3c;
 	line-height: 1.1;
 }
 
 a {
-	color: #7c68ee;
+	color: #185ce3;
 	text-decoration: none;
 	transition: 0.3s;
 	-webkit-transition: 0.3s;
@@ -92,26 +93,26 @@ p:last-child {
 }
 
 ::-moz-selection {
-	background: #7c68ee;
+	background: #185ce3;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::selection {
-	background: #7c68ee;
+	background: #185ce3;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #7c68ee;
+	background: #185ce3;
 	/* Firefox */
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #7c68ee;
+	background: #185ce3;
 	/* Safari */
 	color: #fff;
 	text-shadow: none;
@@ -160,7 +161,7 @@ fieldset {
 blockquote.blockquote {
     background: rgba(123,104,238,0.1);
     padding: 15px 15px 15px 30px;
-    border-left: 5px solid #7c68ee;
+    border-left: 5px solid #185ce3;
     font-size: 17px;
     font-style: italic;
 }
@@ -171,11 +172,37 @@ blockquote.blockquote {
 -----------------------------------------------------------------------
 */
 
+/*-------- Text Logo --------*/
+.text-logo .plug-icon svg {
+    width: 26px;
+    height: 26px;
+}
+
+.text-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo-text {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Barlow", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.text-logo {
+    color: #0e1b3c;
+}
+
+/*-------- Text css --------*/
+.text-blue{
+    color: #185ce3;
+}
 
 /*-------- Theme Button css --------*/
 .theme-btn {
     height: 40px;
-    background: #7c68ee;
+    background: #185ce3;
     border-radius: 4px;
     display: inline-block;
     color: #fff;
@@ -200,7 +227,7 @@ blockquote.blockquote {
     position: relative;
 }
 .theme-btn.trans-btn:hover {
-    color: #7c68ee;
+    color: #185ce3;
     background: transparent;
 }
 
@@ -208,9 +235,14 @@ blockquote.blockquote {
     background: #5c4dbc;
     color: #fff;
 }
-.theme-shadow {
-    box-shadow: 0 10px 25px rgb(123 104 238 / 50%);
+.auth-links .theme-btn {
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 400;
 }
+/* .theme-shadow {
+    box-shadow: 0 10px 25px rgb(123 104 238 / 50%);
+} */
 
 
 /*-------- Play Button css --------*/
@@ -221,11 +253,11 @@ blockquote.blockquote {
     width: 100px;
     height: 100px;
     background: #fff;
-    color: #7c68ee;
+    color: #185ce3;
     border-radius: 100%;
     margin: -50px 0 0 -50px;
     background-color: #fff;
-    box-shadow: 0 20px 76px #7c68ee;
+    box-shadow: 0 20px 76px #185ce3;
     font-size: 25px;
     text-align: center;
     display: inline-block;
@@ -238,16 +270,16 @@ blockquote.blockquote {
 }
 
 .video-play-btn-wrapper .theme-play-btn:hover {
-    background: #7c68ee;
+    background: #185ce3;
     color: #fff;
 }
 
 @keyframes anim-ripple {
     0% {
-        box-shadow: 0 0 0 0px transparent, 0 0 0 0px #7c68ee, 
-        0 0 0 0px transparent, 0 0 0 0px #7c68ee, 
-        0 0 0 0px transparent, 0 0 0 0px #7c68ee, 
-        0 0 0 0px transparent, 0 0 0 0px #7c68ee;
+        box-shadow: 0 0 0 0px transparent, 0 0 0 0px #185ce3, 
+        0 0 0 0px transparent, 0 0 0 0px #185ce3, 
+        0 0 0 0px transparent, 0 0 0 0px #185ce3, 
+        0 0 0 0px transparent, 0 0 0 0px #185ce3;
     }
     100% {
         box-shadow: 0 0 0 15px transparent, 0 0 0 17px rgba(255,255,255,0), 
@@ -271,7 +303,7 @@ blockquote.blockquote {
 .form-control:focus {
     outline: 0;
     box-shadow: none;
-    border: 1px solid #7c68ee;
+    border: 1px solid #185ce3;
 }
 
 /*-------- Magnific Popup Style Css --------*/
@@ -334,9 +366,9 @@ blockquote.blockquote {
     border-color: #e9ebf0;
 }
 .theme-pagination .page-link.active, .theme-pagination .page-link:hover {
-    background: #7c68ee;
+    background: #185ce3;
     color: #fff;
-    border-color: #7c68ee;
+    border-color: #185ce3;
 }
 
 /*
@@ -399,7 +431,7 @@ blockquote.blockquote {
     content: "";
     width: 0;
     height: 2px;
-    background: #7c68ee;
+    background: #185ce3;
     left: 0;
     top: 0;
     transition: 0.3s;
@@ -445,7 +477,7 @@ blockquote.blockquote {
     line-height: 35px;
 }
 .main-menu>ul.nav-menu>li:hover>a, .main-menu>ul.nav-menu>li>.sub-menu li:hover a, .main-menu>ul.nav-menu li a.active{
-    color: #7c68ee;
+    color: #185ce3;
 }
 .menu-expand{
     display: none;
@@ -462,11 +494,14 @@ blockquote.blockquote {
     margin-bottom: 50px;
 }
 .hero-area-text h1 {
-    font-size: 52px;
-    font-weight: 800;
-    line-height: 68px;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 25px;
+}
+.hero-area-text h1 span{
+    font-weight: 500;
 }
 
 .hero-area-text p {
@@ -503,7 +538,7 @@ blockquote.blockquote {
     transition: .3s;
 }
 .hero-buttons .theme-icon-btn:hover i{
-    background: #7c68ee;
+    background: #185ce3;
     box-shadow: 0 10px 25px rgb(123 104 238 / 50%);
 }
 
@@ -529,7 +564,7 @@ blockquote.blockquote {
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     display: inline-block;
-    background: #7c68ee;
+    background: #185ce3;
     position: absolute;
     left: 50%;
     top: -18px;
@@ -560,7 +595,7 @@ blockquote.blockquote {
 }
 
 .trusted-logo-slider.owl-carousel .owl-nav button:hover {
-    color: #7c68ee!important;
+    color: #185ce3!important;
 }
 
 /*-------- Trusted style 02 --------*/
@@ -619,7 +654,7 @@ blockquote.blockquote {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 8px;
-    background: #7c68ee;
+    background: #185ce3;
     color: #fff;
     display: inline-block;
     width: 18px;
@@ -678,26 +713,26 @@ blockquote.blockquote {
 */
 .features-icon-box {
     background: rgba(123,104,238,0.1);
-    padding: 45px 35px;
+    padding: 30px;
     border-radius: 4px;
     margin-bottom: 24px;
+    border: 1px solid #edeff2;
 }
 
 .features-icon-box .features-icon {
-    color: #fff;
-    background: #7b68ee;
-    display: inline-block;
-    font-size: 30px;
     width: 70px;
     height: 70px;
-    text-align: center;
-    line-height: 70px;
-    margin-bottom: 30px;
-    border-radius: 50%;
+    margin-bottom: 20px;
 }
-
+.features-icon-box .features-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
 .features-box-text h4 {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .features-box-text p {
@@ -707,7 +742,7 @@ blockquote.blockquote {
 
 .section-title {
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .title-section-area p {
@@ -842,7 +877,7 @@ blockquote.blockquote {
 }
 .why-toolkit-area-2 .features-icon-box {
     background: #fff;
-    box-shadow: 0px 10px 60px 0px rgb(46 61 98 / 10%);
+    /* box-shadow: 0px 10px 60px 0px rgb(46 61 98 / 10%); */
 }
 
 
@@ -863,7 +898,7 @@ blockquote.blockquote {
     padding-left: 80px;
 }
 .sub-label {
-    color: #7c68ee;
+    color: #185ce3;
     text-transform: uppercase;
     background: rgba(123,104,238,0.1);
     display: inline-block;
@@ -922,7 +957,7 @@ blockquote.blockquote {
 */
 .pricing-area {
     padding: 100px 0;
-    background: #7c68ee;
+    background: #185ce3;
     position: relative;
     z-index: 1;
 }
@@ -1001,7 +1036,7 @@ blockquote.blockquote {
 }
 
 .pricing-footer .theme-btn:hover {
-    background: #7c68ee;
+    background: #185ce3;
     box-shadow: 0 10px 25px rgb(123 104 238 / 50%);
 }
 
@@ -1081,7 +1116,7 @@ blockquote.blockquote {
     height: 35px;
     text-align: center;
     line-height: 35px;
-    background: #7c68ee!important;
+    background: #185ce3!important;
     display: inline-block;
     z-index: 1;
     color: #fff!important;
@@ -1192,11 +1227,11 @@ blockquote.blockquote {
     padding-left: 30px;
 }
 
-.accordion-button:not(.collapsed), .accordion-button:hover {color: #7c68ee;}
+.accordion-button:not(.collapsed), .accordion-button:hover {color: #185ce3;}
 
 .accordion-button:not(.collapsed)::after {
     background: no-repeat;
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 
@@ -1239,7 +1274,7 @@ blockquote.blockquote {
     width: 80px;
     text-align: center;
     line-height: 80px;
-    background: #7c68ee;
+    background: #185ce3;
     margin-right: 30px;
     border-radius: 4px;
     color: #fff;
@@ -1334,7 +1369,7 @@ blockquote.blockquote {
 }
 
 .tem-member-social a:hover {
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .team-member-content h3 a {
@@ -1342,11 +1377,11 @@ blockquote.blockquote {
 }
 
 .team-member-content h3 a:hover {
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .team-member-box:hover .team-member-image {
-    border-color: #7c68ee;
+    border-color: #185ce3;
 }
 
 .team-member-box:hover .team-member-image img {
@@ -1438,7 +1473,7 @@ blockquote.blockquote {
     width: 35px;
     height: 35px;
     text-align: center;
-    background: #7c68ee!important;
+    background: #185ce3!important;
     display: inline-block;
     z-index: 1;
     color: #fff!important;
@@ -1506,7 +1541,7 @@ blockquote.blockquote {
     color: #292d34;
 }
 .blog-thumbnail .blog-content h3 a:hover{
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 
@@ -1574,7 +1609,7 @@ blockquote.blockquote {
 
 /*-------- Contact Style 02 --------*/
 .contact-form.contact-form-style-2 .form-title {
-    background: #7c68ee;
+    background: #185ce3;
     color: #fff;
 }
 
@@ -1584,7 +1619,7 @@ blockquote.blockquote {
 -----------------------------------------------------------------------
 */
 .cta-area {
-    background: #7c68ee;
+    background: #185ce3;
     padding: 90px 0 0;
 }
 .cta-wave-shape {
@@ -1600,7 +1635,7 @@ blockquote.blockquote {
 
 .cta-buttons .theme-btn {
     background: #fff;
-    color: #7c68ee;
+    color: #185ce3;
     height: auto;
     line-height: 1;
     padding: 19px 40px;
@@ -1619,7 +1654,7 @@ blockquote.blockquote {
     color: #fff;
 }
 .cta-buttons .theme-btn.outline-btn:hover{
-    color: #7c68ee;
+    color: #185ce3;
     background: #fff;
 }
 
@@ -1642,7 +1677,7 @@ blockquote.blockquote {
 
 /*-------- Sidebar Search --------*/
 .sidebar-search .theme-btn {
-    border: 1px solid #7c68ee;
+    border: 1px solid #185ce3;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     height: 48px;
@@ -1668,7 +1703,7 @@ blockquote.blockquote {
     content: "";
     width: 50px;
     height: 2px;
-    background: #7c68ee;
+    background: #185ce3;
 }
 
 .widget-sidebar .widget-title {
@@ -1689,12 +1724,12 @@ blockquote.blockquote {
 }
 
 .widget-sidebar ul li a:hover {
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .widget-sidebar ul li i {
     font-size: 12px;
-    color: #7c68ee;
+    color: #185ce3;
     display: inline-block;
     margin-right: 5px;
 }
@@ -1716,7 +1751,7 @@ blockquote.blockquote {
 }
 
 .recent-post-content a:hover {
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .recent-post-thumbnail img {
@@ -1735,11 +1770,11 @@ blockquote.blockquote {
     background: rgba(123,104,238,0.1);
     border-radius: 4px;
     padding: 2px 10px;
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .widget-sidebar .tags li a:hover {
-    background: #7c68ee;
+    background: #185ce3;
     color: #fff;
 }
 
@@ -1778,7 +1813,7 @@ blockquote.blockquote {
 }
 
 .blog-meta a:hover {
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 /*-------- Post Share css --------*/
@@ -1804,7 +1839,7 @@ blockquote.blockquote {
 }
 
 .post-share-btn a:hover {
-	color: #7c68ee;
+	color: #185ce3;
 }
 .post-share-btn {
     padding-left: 25px;
@@ -1891,8 +1926,8 @@ input[type=checkbox]~label::after {
 }
 
 input[type=checkbox]:checked~label:before {
-	background: #7c68ee;
-	border-color: #7c68ee;
+	background: #185ce3;
+	border-color: #185ce3;
 }
 
 input[type=checkbox]:checked~label:after {
@@ -1995,7 +2030,7 @@ input[type=checkbox]:checked~label:after {
 }
 
 .link-btn.replay-btn {
-	color: #7c68ee;
+	color: #185ce3;
 }
 
 .link-btn.replay-btn:hover::after {
@@ -2014,7 +2049,7 @@ input[type=checkbox]:checked~label:after {
 
 .error-text h1 {
     font-size: 15vmax;
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 .error-text p {
@@ -2039,7 +2074,7 @@ input[type=checkbox]:checked~label:after {
     padding-top: 60px;
 } */
 .footer-widget .widget-title {
-    color: #7c68ee;
+    color: #185ce3;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -2104,7 +2139,7 @@ input[type=checkbox]:checked~label:after {
     color: #7c828d;
 }
 .footer-widget ul li a:hover, .social-links li a:hover, .footer-nav li a:hover, .footer-copyright-text a:hover{
-    color: #7c68ee;
+    color: #185ce3;
 }
 
 

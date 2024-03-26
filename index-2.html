@@ -8,13 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-	<link rel="icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Title Tag  -->
-    <title>Revo - Project Management App Landing Page</title>
+    <title>PluginizeLab - Empowering Your Online Presence With Us</title>
 
     <!-- Google Font CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600;700&family=DM+Sans:wght@400;500;700&display=swap">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome CSS -->
@@ -35,24 +53,25 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-auto col-6">
                     <div class="site-logo">
-                        <a href="index.html"><img src="assets/img/logo.png" alt="Alt Text"></a>
+                        <a href="index.html">
+                            <div class="text-logo">
+                                <span class="plug-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plugin" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0"/>
+                                    </svg>
+                                </span>
+                                <span class="logo-text">inize<span class="text-blue">Lab</span></span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-6">
                     <div class="main-menu text-center">
                         <ul class="nav-menu">
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">About Us</a></li>
                             <li class="menu-item-has-children">
-                                <a href="index.html">Home</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home V1</a></li>
-                                    <li><a href="index-2.html">Home V2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Product</a></li>
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li class="menu-item-has-children">
-                                <a href="blog-two-column.html">Blog</a>
+                                <a href="blog-two-column.html">Products</a>
                                 <ul class="sub-menu">
                                     <li><a href="blog-left-sidebar.html">Blog Left</a></li>
                                     <li><a href="blog-right-sidebar.html">Blog Right</a></li>
@@ -63,7 +82,9 @@
                                     <li><a href="blog-details-right-sidebar.html">Blog Details Right</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Docs</a></li>
                         </ul>
                     </div>
                     <!-- Start Mobile Menu. Don't Remove it -->
@@ -76,8 +97,7 @@
                 </div>
                 <div class="col-lg-auto d-none d-lg-block">
                     <div class="auth-links text-end">
-                        <a href="#" class="theme-btn trans-btn theme-icon-btn"><i class="fas fa-sign-out-alt"></i>Login</a>
-                        <a href="#" class="theme-btn theme-shadow">Register</a>
+                        <a href="#" class="theme-btn theme-shadow">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -90,8 +110,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-area-text mb-0">
-                        <h1>Powerful project management tool.</h1>
-                        <p>Time tracking software used by millions. Clockify is a time tracker and timesheet app that lets you track work hours across projects.</p>
+                        <h1>Empowering Your Online Presence with <span>Pluginize<span class="text-blue">Lab</span></span></h1>
+                        <p>From powerful plugins to tailored solutions, we provide the tools and expertise you need to elevate your online presence and stand out from the competition.</p>
                         <div class="hero-buttons">
                             <a href="#" class="theme-btn theme-shadow ms-0">Get Started</a>
                             <a href="#" class="theme-btn trans-btn theme-icon-btn"><i class="fas fa-play"></i>Live Demo</a>
@@ -101,8 +121,8 @@
                 <div class="col-lg-6">
                     <div class="hero-area-image">
                         <div class="video-play-btn-wrapper position-relative">
-                            <img src="assets/img/banner-center.png" alt="Alt Text">
-                            <a href="https://youtube.com/watch?v=ScMzIvxBSi4" class="theme-play-btn popup-video"><i class="fas fa-play"></i></a>
+                            <img src="assets/img/programming.svg" alt="Alt Text">
+                            <!-- <a href="https://youtube.com/watch?v=ScMzIvxBSi4" class="theme-play-btn popup-video"><i class="fas fa-play"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -111,7 +131,7 @@
     </section>
     <!-- End Hero Area -->
     <!-- Start Trusted Team Area -->
-    <section class="trusted-teams-area trusted-style-2">
+    <!-- <section class="trusted-teams-area trusted-style-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -148,10 +168,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Trusted Team Area -->
     <!-- Start About Us Area -->
-    <section class="about-us-area about-us-style-2">
+    <!-- <section class="about-us-area about-us-style-2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -216,7 +236,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End About Us Area -->
     <!-- Start Toolkit Area -->
     <section class="why-toolkit-area why-toolkit-area-2">
@@ -224,7 +244,7 @@
             <div class="title-section-area text-center">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="section-title">Why Use Toolkit?</h2>
+                        <h2 class="section-title">Our Products</h2>
                         <p class="subtitle">Access key Toolkit features from anywhere so you can keep ideas flowing whenever <br>inspiration strikes.</p>
                     </div>
                 </div>
@@ -232,75 +252,75 @@
             <div class="why-toolkit-box">
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box text-center">
-                            <div class="features-icon purple-shadow">
-                                <i class="fas fa-hand-holding-usd"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://ps.w.org/wp-login-and-logout-redirect/assets/icon-256x256.png" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Client Billing</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>WP Login and Logout Redirect</h4>
+                                <p>This super easy plugin allow you to change WordPress Default Login and Logout Redirection Link.</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://wordpress.org/plugins/wp-login-and-logout-redirect/" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box yellow-style text-center">
-                            <div class="features-icon yellow-shadow">
-                                <i class="fas fa-users-cog"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://ps.w.org/wp-change-email-sender/assets/icon-256x256.png" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Team Management</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>WP Change Email Sender</h4>
+                                <p>This plugin enable you to change mail sender name and email address from WordPress default mail sender name and email.</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://wordpress.org/plugins/wp-change-email-sender/" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box orange-style text-center">
-                            <div class="features-icon orange-shadow">
-                                <i class="far fa-chart-bar"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://ps.w.org/jobpress/assets/icon-256x256.png" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Business Intelligence</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>JobPress</h4>
+                                <p>This plugin enables you to build/create your own job board inside your WordPress website. Just install, active and ready to go.</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://wordpress.org/plugins/jobpress/" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box pink-style text-center">
-                            <div class="features-icon pink-shadow">
-                                <i class="fas fa-shipping-fast"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://s.w.org/plugins/geopattern-icon/dokan-customers.svg" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Productivity Boost</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>Vendor Dashboard Booster</h4>
+                                <p>This is an extension plugin for the popular multi-vendor plugin Dokan. It enables a feature...</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://wordpress.org/plugins/dokan-customers/" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box green-style text-center">
-                            <div class="features-icon green-shadow">
-                                <i class="far fa-file-alt"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://s.w.org/plugins/geopattern-icon/dokan-customers.svg" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Project Management</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>Metadata Viewer</h4>
+                                <p>A WordPress plugin for developer to debugging issues with post (any custom post type) or user metadata</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://github.com/aminurislamarnob/metadata-viewer" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="features-icon-box blue-style text-center">
-                            <div class="features-icon blue-shadow">
-                                <i class="fas fa-tasks"></i>
+                        <div class="features-icon-box">
+                            <div class="features-icon">
+                                <img src="https://ps.w.org/msfc-wc-frontend-manager/assets/icon-256x256.png" alt="">
                             </div>
                             <div class="features-box-text">
-                                <h4>Task Handle</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ullam illum nisi cum beatae quaerat.</p>
+                                <h4>MSFC Frontend Manager</h4>
+                                <p>This plugin enables you to manage WooCommerce products, orders & categories from your site front-end.</p>
                             </div>
-                            <a href="#" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="https://github.com/aminurislamarnob/msfc-woocommerce-frontend-manager-plugin" target="_blank" class="learn-more">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                 </div>
